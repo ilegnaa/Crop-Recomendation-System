@@ -6,7 +6,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import plotly.figure_factory as ff
 
-model = pickle.load(open('cropmodel.pkl', 'rb'))
+model = pickle.load(open('model.pkl', 'rb'))
 df = pd.read_csv("crop_prediction_model_one.csv")
 
 converts_dict = {
